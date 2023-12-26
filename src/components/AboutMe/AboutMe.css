@@ -1,0 +1,53 @@
+.aboutme {
+    /* background-color: aqua; */
+    margin-top: 5rem;
+}
+
+.img {
+    border-radius: 1rem;
+}
+
+.imageAndText {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.my-pic {
+    width: 42%;
+}
+
+.right-aboutme {
+    width: 50%;
+}
+.myStory {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem ;
+  }
+
+/* .theText {
+    margin-left: 2vw;
+} */
+/* Media Query for Mobile View */
+@media (max-width: 600px) {
+    .imageAndText {
+        width: 100%;
+    }
+
+    .my-pic {
+        display: none; /* Hide the .my-pic section, including the image, in mobile view */
+ 
+    }
+
+    .right-aboutme {
+        width: 100%; /* Make the right-aboutme section take full width in mobile view */
+    }
+    .myStory {
+        
+        font-weight: bold !important;
+        font-size: 2rem !important; /* Adjust the font size for h5 variant on mobile */
+      }
+}
+
+
