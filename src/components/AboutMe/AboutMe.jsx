@@ -64,6 +64,7 @@ const AboutMe = () => {
               </Box>
             </Card>
           </Box>
+          <Box className="aboutmyself"></Box>
         </Box>
       </Box>
     </Box>
