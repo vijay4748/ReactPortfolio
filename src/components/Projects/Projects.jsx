@@ -65,7 +65,7 @@ const Projects = () => {
         <ProjectCard
           projectName="Digital Clock"
           projectDescription="
-          Developed a Guess the Number game with HTML, CSS, and JS. Offers an interactive experience with dynamic elements, blending design and functionality harmoniously."
+          Developed a Guess the Number game with HTML, CSS, and JS. Offers an interactive experience with dynamic elements."
           projectSkills={["Html", "JavaScript", "CSS"]}
           githubLink="https://github.com/vijay4748/TechVijay-Projects/tree/main/Digital%20Clock"
           liveDemoLink="https://vijay4748.github.io/vjyweb/Digital%20Clock/DigitalClock.html"
@@ -73,7 +73,7 @@ const Projects = () => {
         />
         <ProjectCard
           projectName="Covid19 Tracker"
-          projectDescription="Hotel management app - full-featured React web application that allows hotel employees to manage cabins, bookings, and guests."
+          projectDescription="A COVID-19 tracker, using HTML, CSS, and JavaScript, provides users with real-time pandemic statistics for informed decision-making."
           projectSkills={["Html", "JavaScript", "CSS"]}
           githubLink="https://github.com/vijay4748/vjyweb/tree/main/COVID_19%20Tracker"
           liveDemoLink="https://vijay4748.github.io/vjyweb/COVID_19%20Tracker/index.html"
@@ -81,7 +81,8 @@ const Projects = () => {
         />
         <ProjectCard
           projectName="DashBoard"
-          projectDescription="Hotel management app - full-featured React web application that allows hotel employees to manage cabins, bookings, and guests."
+          projectDescription="
+          Built a sleek dashboard with React, SCSS, and Material-UI, seamlessly combining functionality and aesthetics for an optimal user experience"
           projectSkills={["React", "JavaScript", "CSS", "Html"]}
           githubLink="https://github.com/your-username/project-repo"
           liveDemoLink="https://your-live-demo-link.com"
@@ -89,7 +90,7 @@ const Projects = () => {
         />
         <ProjectCard
           projectName="Guess Game"
-          projectDescription="Hotel management app - full-featured React web application that allows hotel employees to manage cabins, bookings, and guests."
+          projectDescription="Developed a Guess the Number game with HTML, CSS, and JS. Offers an interactive experience with dynamic elements."
           projectSkills={["Html", "JavaScript", "CSS"]}
           githubLink="https://github.com/vijay4748/TechVijay-Projects/tree/main/Guess%20Number"
           liveDemoLink="https://vijay4748.github.io/vjyweb/Guess%20Number/index.html"
@@ -97,7 +98,8 @@ const Projects = () => {
         />
         <ProjectCard
           projectName="Food App"
-          projectDescription="A COVID-19 tracker, using HTML, CSS, and JavaScript, provides users with real-time pandemic statistics for informed decision-making."
+          projectDescription="
+          Developed a delightful food app with React, Redux, Saga, SCSS, and Material-UI, ensuring a seamless, stylish, and state-managed user interface."
           projectSkills={[
             "React",
             "Redux",
@@ -112,7 +114,8 @@ const Projects = () => {
         />
         <ProjectCard
           projectName="Old Portfolio"
-          projectDescription="Hotel management app - full-featured React web application that allows hotel employees to manage cabins, bookings, and guests."
+          projectDescription="
+          Crafted a classic portfolio with HTML, CSS, and JavaScript, enhanced by the Bootstrap framework for a polished and responsive design."
           projectSkills={["Html", "JavaScript", "CSS", "Bootstrap"]}
           githubLink="https://github.com/vijay4748/vjyweb"
           liveDemoLink="https://vijay4748.github.io/vjyweb/"

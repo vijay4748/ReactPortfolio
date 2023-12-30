@@ -77,7 +77,7 @@ const AboutMe = () => {
             </Card>
           </Box>
           <Box className="aboutmyself">
-            <Typography variant="h4" gutterBottom>
+            <Typography variant="h5" gutterBottom>
               <b>a little bit about Vijay</b>
             </Typography>
             <Typography
