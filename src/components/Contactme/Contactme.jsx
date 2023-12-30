@@ -17,9 +17,9 @@ const Contactme = () => {
           Get in touch
         </Typography>
         <Typography
-          sx={{ textAlign: "initial", color: "#222327" }}
+          sx={{ textAlign: "justify", color: "#222327" }}
           variant="subtitle1"
-          className="desc"
+          className="desc-contact"
         >
           Creating clean, engaging web experiences with efficiency and
           precision. Let's create something exceptional together.

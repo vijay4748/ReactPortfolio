@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Card, CardContent, CardMedia, Typography } from "@mui/material";
-import mypic from "../../assets/img/mypic.svg";
+import mskillsypic from "../../assets/img/skills.png";
 import html from "../../assets/img/html.svg";
 import css from "../../assets/img/css.svg";
 import javascript from "../../assets/img/javascript.svg";
@@ -64,7 +64,7 @@ const Skills = () => {
                   maxWidth: "100%",
                   maxHeight: "100%",
                 }}
-                image={mypic}
+                image={mskillsypic}
                 alt="Profile"
               />
             </Box>

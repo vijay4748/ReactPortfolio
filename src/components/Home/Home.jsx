@@ -35,7 +35,7 @@ const Home = () => {
               <span style={{ color: "orange" }}>VIJAY</span>
             </Typography>
             <Typography
-              sx={{ width: "100%", display: "block" }}
+              // sx={{ width: "100%", display: "block" }}
               color="white"
               variant="h4"
               className="degination"
@@ -44,7 +44,7 @@ const Home = () => {
               Software Developer
             </Typography>
             <Typography
-              sx={{ textAlign: "initial" }}
+              sx={{ textAlign: "justify" }}
               color="white"
               variant="subtitle1"
               className="desc"
