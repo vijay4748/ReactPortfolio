@@ -1,0 +1,56 @@
+.skillBackground {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+.skills {
+  margin: 20px 20px 0 20px;
+
+  /* height: 200vh; */
+}
+.LanguageAndTools {
+  margin-top: 3rem;
+}
+.skillMyStory {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.skillSection {
+  width: 50%;
+}
+
+.language-card {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-left: 5px solid #561fac;
+  border-radius: 5px 0 0 5px; /* Adjust the values for the curve you want */
+  margin-top: 20px;
+}
+.name-language {
+  font-weight: bold;
+  margin-left: 5px;
+  /* margin-bottom: 4px; */
+  /* padding: 5px; */
+  font-size: 20px;
+  text-align: center;
+}
+.custom-box .name {
+  margin-top: 5px; /* Adjust the value as needed */
+  margin-left: 5px;
+}
+.skill-logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 600px) {
+  .skillMyStory {
+    font-weight: bold !important;
+    font-size: 2rem !important; /* Adjust the font size for h5 variant on mobile */
+  }
+  .skillSection {
+    width: 100%;
+  }
+}

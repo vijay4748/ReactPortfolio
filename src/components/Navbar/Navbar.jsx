@@ -14,10 +14,11 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 
 import "./navbar.css"; // Import the CSS file
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
+// import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const drawerWidth = 240;
-const navItems = ["Home", "About", "Skills", "Projects", "Contact", "Say Hi"];
+const navItems = ["Home", "About", "Skills", "Projects", "Contact"];
 
 const Navbar = (props) => {
   const { window } = props;
@@ -48,7 +49,7 @@ const Navbar = (props) => {
         sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}
       >
         {navItems.map((item) => (
-          <ScrollLink
+          <Link
             key={item}
             to={item.toLowerCase()}
             spy={true}
@@ -64,7 +65,7 @@ const Navbar = (props) => {
             >
               <ListItemText primary={item} />
             </ListItem>
-          </ScrollLink>
+          </Link>
         ))}
       </List>
     </Box>
@@ -97,7 +98,7 @@ const Navbar = (props) => {
                 cursor: "pointer",
               }}
             >
-              <ScrollLink
+              <Link
                 to="home"
                 spy={true}
                 smooth={true}
@@ -105,11 +106,11 @@ const Navbar = (props) => {
                 duration={500}
               >
                 Tech Vijay
-              </ScrollLink>
+              </Link>
             </Typography>
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
-            <ScrollLink
+            <Link
               to="home"
               spy={true}
               smooth={true}
@@ -117,14 +118,14 @@ const Navbar = (props) => {
               duration={500}
             >
               <Button
-                className={`${location.pathname === "/" ? "active" : ""}`}
+                // className={`${location.pathname === "/" ? "active" : ""}`}
                 color="inherit"
                 sx={{ borderRadius: 0 }}
               >
                 {navItems[0]}
               </Button>
-            </ScrollLink>
-            <ScrollLink
+            </Link>
+            <Link
               to="about"
               spy={true}
               smooth={true}
@@ -134,40 +135,40 @@ const Navbar = (props) => {
               <Button color="inherit" sx={{ borderRadius: 0 }}>
                 {navItems[1]}
               </Button>
-            </ScrollLink>
-            <ScrollLink
+            </Link>
+            <Link
               to="skill"
               spy={true}
               smooth={true}
-              offset={30}
+              offset={-20}
               duration={500}
             >
               <Button color="inherit" sx={{ borderRadius: 0 }}>
                 {navItems[2]}
               </Button>
-            </ScrollLink>
-            <ScrollLink
-              to="project"
+            </Link>
+            <Link
+              to="projects"
               spy={true}
               smooth={true}
-              offset={30}
+              offset={-90}
               duration={500}
             >
               <Button color="inherit" sx={{ borderRadius: 0 }}>
                 {navItems[3]}
               </Button>
-            </ScrollLink>
-            <ScrollLink
+            </Link>
+            <Link
               to="contact"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={0}
               duration={500}
             >
               <Button color="inherit" sx={{ borderRadius: 0 }}>
                 {navItems[4]}
               </Button>
-            </ScrollLink>
+            </Link>
           </Box>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             <Button
@@ -176,7 +177,7 @@ const Navbar = (props) => {
               href="#contained-buttons"
               className="custom-button"
             >
-              {navItems[5]}
+              Say Hi
             </Button>
           </Box>
         </Toolbar>

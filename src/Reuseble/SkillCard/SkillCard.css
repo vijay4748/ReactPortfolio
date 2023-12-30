@@ -1,0 +1,39 @@
+.skill-logo-Card{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #e9eaeb;
+      /* border: 1px solid black; */
+      padding: 0.5rem;
+      border-radius: 5px;
+      height: 6rem;
+      width: 6rem;
+      margin-right: 10px;
+   } 
+   .logo-img{
+    max-width: 100%;
+    height: 3rem;
+   }
+   .logo-name{
+    font-weight: normal;
+      font-size: 0.9rem;
+      text-align: center;
+      margin-top: 0.5rem;
+   } 
+   @media (max-width: 600px) {
+    .skill-logo-Card{
+      margin: 0 10px 10px 0;
+      height: 5rem;
+      width: 5rem;
+    }
+    .logo-img{
+      max-width: 100%;
+      height: 2rem;
+     }
+     .logo-name{
+      font-weight: normal;
+        font-size: 0.8rem;
+        text-align: center;
+     } 
+}

@@ -1,72 +1,69 @@
 .home {
-    background-color: #7022c4;
-    width: 100%;
-    height: 120vh;
-    background-image: url('../../assets/img/curverBg.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-  }
-  
-  .boxs {
-    margin-top: 15rem;
-    margin-left: 6rem;
-  }
-  
-  .home_img {
-    background: url(../../assets/img/vj.jpg);
-    background-repeat: no-repeat;
-    /* background-position:center; */
-    background-size: cover;
-    box-shadow: inset 0 0 0 5px rgb(255 255 255 / 30%);
-    /* width: 100vw;
+  background-color: #7022c4;
+  width: 100%;
+  height: 120vh;
+  background-image: url("../../assets/img/curverBg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+
+.boxs {
+  margin-top: 15rem;
+  margin-left: 6rem;
+}
+
+.home_img {
+  background: url(../../assets/img/vj.jpg);
+  background-repeat: no-repeat;
+  /* background-position:center; */
+  background-size: cover;
+  box-shadow: inset 0 0 0 5px rgb(255 255 255 / 30%);
+  /* width: 100vw;
     height: 100vh; */
-    animation: profile_animate 8s ease-in-out infinite 1s;
+  animation: profile_animate 8s ease-in-out infinite 1s;
+}
+@keyframes profile_animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
-  @keyframes profile_animate {
-    0%{
-      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    }
-    50%{
-      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-    }
-    100%{
-      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
   }
-  
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+.desc {
+  text-align: initial;
+}
+
+@media (max-width: 600px) {
+  .home {
+    height: 100vh;
+  }
+
+  .boxs {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    text-align: center;
+  }
+  .left-side {
+    margin-right: 4rem !important;
+  }
+
   .desc {
-    text-align: initial;
+    margin-left: 2rem !important;
   }
-  
-  @media (max-width: 600px) {
-    .home {
-      height: 100vh;
-    }
-  
-    .boxs {
-      margin-top: 2rem;
-      margin-left: 1rem;
-      text-align: center;
-    }
-    .left-side{
-      margin-right: 4rem !important;
-    }
-  
-    .desc {
-     margin-left: 2rem !important;
-    }
-  
-    .home_img {
-      width: 80%;
-      margin: 2rem auto;
-      
-    }
-    .mail-data{
-      /* background-color: red; */
-      margin-left:6rem;
-     
-  
-    }
+
+  .home_img {
+    width: 80%;
+    margin: 2rem auto;
   }
+  .mail-data-home {
+    /* background-color: red; */
+    margin-left: 5rem;
+  }
+}

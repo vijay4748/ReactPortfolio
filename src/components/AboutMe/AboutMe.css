@@ -1,53 +1,82 @@
 .aboutme {
-    /* background-color: aqua; */
-    margin-top: 5rem;
+  /* background-color: aqua; */
+  margin: 3rem 0;
 }
 
 .img {
-    border-radius: 1rem;
+  border-radius: 1rem;
 }
 
 .imageAndText {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .my-pic {
-    width: 42%;
+  width: 42%;
 }
 
 .right-aboutme {
-    width: 50%;
+  width: 50%;
 }
 .myStory {
-    color: white;
-    font-weight: bold;
-    font-size: 2.5rem ;
-  }
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.custom-box {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-left: 5px solid #561fac;
+  border-radius: 5px 0 0 5px; /* Adjust the values for the curve you want */
+}
+.aboutmyself {
+  margin-top: 2rem;
+}
+
+.custom-box span {
+  font-size: 20px;
+}
+
+/* .custom-box .icon {
+  } */
+
+.custom-box .name {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 4px;
+}
+
+/* Optional: Add margin-top to adjust the vertical alignment */
+.custom-box .icon,
+.custom-box .name {
+  margin-top: 5px; /* Adjust the value as needed */
+  margin-left: 5px;
+}
 
 /* .theText {
     margin-left: 2vw;
 } */
 /* Media Query for Mobile View */
 @media (max-width: 600px) {
-    .imageAndText {
-        width: 100%;
-    }
+  .imageAndText {
+    width: 100%;
+  }
 
-    .my-pic {
-        display: none; /* Hide the .my-pic section, including the image, in mobile view */
- 
-    }
+  .my-pic {
+    display: none; /* Hide the .my-pic section, including the image, in mobile view */
+  }
 
-    .right-aboutme {
-        width: 100%; /* Make the right-aboutme section take full width in mobile view */
-    }
-    .myStory {
-        
-        font-weight: bold !important;
-        font-size: 2rem !important; /* Adjust the font size for h5 variant on mobile */
-      }
+  .right-aboutme {
+    width: 100%; /* Make the right-aboutme section take full width in mobile view */
+  }
+  .myStory {
+    font-weight: bold !important;
+    font-size: 2rem !important; /* Adjust the font size for h5 variant on mobile */
+  }
+  .right-aboutme {
+    margin: 0 20px;
+  }
 }
-
-

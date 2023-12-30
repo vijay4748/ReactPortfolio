@@ -1,0 +1,27 @@
+.custom-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-left: 5px solid #561fac;
+    border-radius: 5px 0 0 5px; /* Adjust the values for the curve you want */
+  }
+  
+  .custom-box span {
+    font-size: 20px;
+  }
+  
+  /* .custom-box .icon {
+  } */
+  
+  .custom-box .name {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 4px;
+  }
+  
+  /* Optional: Add margin-top to adjust the vertical alignment */
+  .custom-box .icon,
+  .custom-box .name {
+    margin-top: 5px; /* Adjust the value as needed */
+    margin-left: 5px;
+  }

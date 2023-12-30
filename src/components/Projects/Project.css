@@ -1,0 +1,31 @@
+.Projects {
+  /* margin-top: 20px; */
+  /* height: 200vh; */
+  margin: 5rem 20px;
+  /* margin-bottom: 50px; */
+}
+.project-skillMyStory {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.project-section {
+  width: 50%;
+}
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 600px) {
+  .project-skillMyStory {
+    font-weight: bold !important;
+    font-size: 2rem !important; /* Adjust the font size for h5 variant on mobile */
+  }
+  .project-section {
+    width: 100%;
+  }
+}
