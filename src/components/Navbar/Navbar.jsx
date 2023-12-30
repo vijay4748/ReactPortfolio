@@ -13,10 +13,8 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 
-import "./navbar.css"; // Import the CSS file
+import "./Navbar.css";
 import { Link } from "react-scroll";
-// import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
-
 const drawerWidth = 240;
 const navItems = ["Home", "About", "Skills", "Projects", "Contact"];
 
@@ -172,9 +170,10 @@ const Navbar = (props) => {
           </Box>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             <Button
+              href="mailto:vjy4748@gmail.com"
+              target="_blank"
               style={{ backgroundColor: "#5b21b6" }}
               variant="contained"
-              href="#contained-buttons"
               className="custom-button"
             >
               Say Hi

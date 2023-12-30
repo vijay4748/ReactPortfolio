@@ -1,31 +1,31 @@
 .toolbar {
-    justify-content: space-between;
-  }
-  .app-bar {
-    background-color: #2e1065 !important;;
-  }
-  
-  .logo {
-    font-family: cursive; /* Use a cursive font (replace with your preferred font) */
-    color: #fff; /* Text color */
-  }
-  
-  .nav-button {
-    color: #fff;
-  }
-  
-  /* .nav-button:hover {
+  justify-content: space-between;
+}
+.app-bar {
+  background-color: #2e1065 !important;
+}
+
+.logo {
+  font-family: cursive; /* Use a cursive font (replace with your preferred font) */
+  color: #fff; /* Text color */
+}
+
+.nav-button {
+  color: #fff;
+}
+
+/* .nav-button:hover {
     background-color: #fff; 
     color: #1976d2; 
   } */
- /* navbar.css */
+/* navbar.css */
 
- .app-bar button.active,
- .app-bar button:hover {
-   color: white !important;
-   border-bottom: 3px solid white !important;
- }
- .custom-button {
+.app-bar button.active,
+.app-bar button:hover {
+  color: white !important;
+  border-bottom: 3px solid white !important;
+}
+.custom-button {
   background-color: #5b21b6;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);

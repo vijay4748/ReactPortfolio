@@ -51,13 +51,13 @@ const Contactme = () => {
           <Link
             color="inherit"
             href="mailto:vjy4748@gmail.com"
+            target="_blank"
             sx={{
               color: "white",
               display: "flex",
               alignItems: "center",
               textAlign: "center",
             }}
-            target="_blank" // Add this line to open the link in a new tab
           >
             <span style={{ marginRight: "8px" }}>
               <ForwardToInboxIcon style={{ color: "#222327" }} />
