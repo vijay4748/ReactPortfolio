@@ -85,6 +85,7 @@ const Home = () => {
                   display: "flex",
                   alignItems: "center",
                   textAlign: "center",
+                  textDecoration: "none",
                 }}
               >
                 <span style={{ marginRight: "8px" }}>

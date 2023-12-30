@@ -57,6 +57,7 @@ const Contactme = () => {
               display: "flex",
               alignItems: "center",
               textAlign: "center",
+              textDecoration: "none",
             }}
           >
             <span style={{ marginRight: "8px" }}>
@@ -67,6 +68,8 @@ const Contactme = () => {
         </Box>
         <Box className="button-container">
           <Button
+            href="mailto:vjy4748@gmail.com"
+            target="_blank"
             sx={{
               marginTop: "20px",
               backgroundColor: "#2e1065",
