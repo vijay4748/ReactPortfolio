@@ -37,7 +37,7 @@ const Home = () => {
             <Typography
               // sx={{ width: "100%", display: "block" }}
               color="white"
-              variant="h4"
+              variant="h5"
               className="degination"
               gutterBottom
             >
