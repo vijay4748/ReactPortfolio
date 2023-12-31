@@ -84,14 +84,15 @@ const Hero = () => {
         </Box>
       </Box>
       <Box className="right-hero">
-        <Box
+        {/* <Box
           sx={{
             width: { xs: "60%", md: "350px" },
             height: { xs: "40vh", md: "350px" },
             margin: { xs: "2rem auto", md: "8rem 6rem" },
           }}
           className="hero_img"
-        ></Box>
+        ></Box> */}
+        <Box className="hero_img"></Box>
       </Box>
     </Box>
   );
