@@ -84,7 +84,7 @@
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 600px) and (max-width: 1200px) {
+@media (min-width: 600px) and (max-width: 769px) {
   .Hero {
     /* background-color: red; */
     height: 80vh;
@@ -93,17 +93,17 @@
     margin-top: 10rem !important;
   }
 }
-@media (min-width: 1205px) {
+@media (min-width: 769px) {
   /* Medium devices (md) */
   .hero_img {
-    width: 400px;
+    width: 300px;
     height: 300px;
     /* margin: 8rem 6rem; */
-    margin-top: 18rem;
+    margin-top: 10rem;
   }
   .Hero {
     width: 100%;
-    height: 100vh;
+    height: 95vh;
   }
 }
 
