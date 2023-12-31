@@ -16,6 +16,7 @@ import github from "../../assets/img/github.svg";
 import webpack from "../../assets/img/webpack.svg";
 import vite from "../../assets/img/vite.svg";
 import ts from "../../assets/img/ts.svg";
+import figma from "../../assets/img/figma.svg";
 
 import "./Skills.css";
 import SkillCard from "../../Reuseble/SkillCard/SkillCard";
@@ -94,6 +95,7 @@ const Skills = () => {
               altText="Bootstrap"
               skillName="Bootstrap"
             />
+            <SkillCard logoSrc={figma} altText="figma" skillName="Figma" />
           </Box>
           <Box className="language-card">
             <span className="name-language">TOOLS</span>
