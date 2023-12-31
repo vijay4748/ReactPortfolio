@@ -78,7 +78,7 @@ const AboutMe = () => {
           </Box>
           <Box className="aboutmyself">
             <Typography variant="h5" gutterBottom>
-              <b>a little bit about Vijay</b>
+              <b>A little bit about Vijay</b>
             </Typography>
             <Typography
               variant="subtitle1"

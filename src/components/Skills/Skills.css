@@ -42,6 +42,14 @@
 .skill-logo {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.skill-card {
+  width: calc(
+    33.33% - 20px
+  ); /* Set width to 1/3 with a bit of margin for spacing */
+  margin: 10px; /* Adjust margin for spacing between cards */
 }
 
 /* Media Query for Mobile View */
