@@ -65,7 +65,7 @@ const Projects = () => {
         <ProjectCard
           projectName="Digital Clock"
           projectDescription="
-          Developed a Guess the Number game with HTML, CSS, and JS. Offers an interactive experience with dynamic elements."
+          Crafted a stylish digital clock with HTML, CSS, and JavaScript for precise real-time display. The design is modern, providing an attractive and functional timekeeping experience on the web."
           projectSkills={["Html", "JavaScript", "CSS"]}
           githubLink="https://github.com/vijay4748/TechVijay-Projects/tree/main/Digital%20Clock"
           liveDemoLink="https://vijay4748.github.io/vjyweb/Digital%20Clock/DigitalClock.html"
