@@ -12,7 +12,7 @@ const Hero = () => {
     <Box className="Hero" id="home">
       <Box className="left-hero">
         <Box className="wrap-box">
-          <Box className="hero-text">
+          <Box className="hero-text" data-aos="fade-right">
             <Typography color="white" variant="h3">
               <span style={{ color: "white" }}>I'm </span>
               <span style={{ color: "orange" }}>VIJAY</span>
@@ -25,7 +25,7 @@ const Hero = () => {
               precision. Let's create something exceptional together.
             </Typography>
           </Box>
-          <Box className="hero-icons">
+          <Box className="hero-icons" data-aos="fade-up">
             {" "}
             <Link
               sx={{ color: "white", marginRight: "0.5rem" }}
@@ -49,7 +49,7 @@ const Hero = () => {
               <GitHubIcon />
             </Link>
           </Box>
-          <Box className="hero-mail">
+          <Box className="hero-mail" data-aos="fade-up">
             <Link
               color="inherit"
               href="/"
@@ -83,7 +83,7 @@ const Hero = () => {
           </Button>
         </Box>
       </Box>
-      <Box className="right-hero">
+      <Box className="right-hero" data-aos="fade-up-left">
         {/* <Box
           sx={{
             width: { xs: "60%", md: "350px" },

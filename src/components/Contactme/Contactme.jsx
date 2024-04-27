@@ -7,7 +7,7 @@ import "./Contactme.css";
 const Contactme = () => {
   return (
     <Box className="contactus-section" id="contact">
-      <Box className="contact-section">
+      <Box className="contact-section" data-aos="zoom-in-left">
         <Typography
           className="getintouch"
           sx={{ color: "#5b21b6", fontWeight: "bold" }}

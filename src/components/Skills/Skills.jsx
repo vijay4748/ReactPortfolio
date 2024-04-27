@@ -24,7 +24,7 @@ const Skills = () => {
   return (
     <Box className="skillBackground" id="skill">
       <Box className="skills">
-        <Box className="skillSection">
+        <Box className="skillSection" data-aos="fade-up">
           <Card
             className="skillCards"
             sx={{
@@ -72,10 +72,10 @@ const Skills = () => {
           </Card>
         </Box>
         <Box className="LanguageAndTools">
-          <Box className="language-card">
+          <Box className="language-card" data-aos="fade-up-right">
             <span className="name-language">LANGUAGE</span>
           </Box>
-          <Box className="skill-logo" mt={3}>
+          <Box className="skill-logo" mt={3} data-aos="fade-up-left">
             <SkillCard logoSrc={html} altText="HTML" skillName="Html" />
             <SkillCard logoSrc={css} altText="css" skillName="CSS" />
             <SkillCard
@@ -97,10 +97,10 @@ const Skills = () => {
             />
             <SkillCard logoSrc={figma} altText="figma" skillName="Figma" />
           </Box>
-          <Box className="language-card">
+          <Box className="language-card" data-aos="fade-up-right">
             <span className="name-language">TOOLS</span>
           </Box>
-          <Box className="skill-logo" mt={3}>
+          <Box className="skill-logo" mt={3} data-aos="fade-up-left">
             <SkillCard logoSrc={git} altText="git" skillName="Git" />
             <SkillCard logoSrc={github} altText="github" skillName="GitHub" />
             <SkillCard

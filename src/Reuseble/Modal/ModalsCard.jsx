@@ -1,7 +1,9 @@
-// import React from "react";
+// import * as React from "react";
 // import Box from "@mui/material/Box";
+// import Button from "@mui/material/Button";
 // import Typography from "@mui/material/Typography";
 // import Modal from "@mui/material/Modal";
+
 // const style = {
 //   position: "absolute",
 //   top: "50%",
@@ -13,9 +15,15 @@
 //   boxShadow: 24,
 //   p: 4,
 // };
-// const ModalsCard = ({ open, handleClose }) => {
+
+// export default function ModalsCard() {
+//   const [open, setOpen] = React.useState(false);
+//   const handleOpen = () => setOpen(true);
+//   const handleClose = () => setOpen(false);
+
 //   return (
 //     <div>
+//       <Button onClick={handleOpen}>Open modal</Button>
 //       <Modal
 //         open={open}
 //         onClose={handleClose}
@@ -33,6 +41,4 @@
 //       </Modal>
 //     </div>
 //   );
-// };
-
-// export default ModalsCard;
+// }

@@ -14,7 +14,7 @@ import oldportfolio from "../../assets/img/oldportfolio.png";
 const Projects = () => {
   return (
     <Box className="Projects" id="projects">
-      <Box className="project-section">
+      <Box className="project-section" data-aos="fade-up">
         <Card
           className="project-Cards"
           sx={{
@@ -61,7 +61,7 @@ const Projects = () => {
           </Box>
         </Card>
       </Box>
-      <Box className="project-cards">
+      <Box className="project-cards" data-aos="fade-up-left">
         <ProjectCard
           projectName="Digital Clock"
           projectDescription="

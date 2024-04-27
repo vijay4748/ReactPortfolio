@@ -24,7 +24,7 @@ const AboutMe = () => {
         </Typography>
       </Box> */}
       <Box className="imageAndText">
-        <Box className="my-pic">
+        <Box className="my-pic" data-aos="zoom-in-up">
           <CardMedia
             className="img"
             image={mypic}
@@ -33,7 +33,7 @@ const AboutMe = () => {
           />
         </Box>
         <Box className="right-aboutme">
-          <Box className="theText">
+          <Box className="theText" data-aos="fade-up">
             <Card
               className="cards"
               sx={{
@@ -76,7 +76,7 @@ const AboutMe = () => {
               </Box>
             </Card>
           </Box>
-          <Box className="aboutmyself">
+          <Box className="aboutmyself" data-aos="fade-left">
             <Typography variant="h5" gutterBottom>
               <b>A little bit about Vijay</b>
             </Typography>
