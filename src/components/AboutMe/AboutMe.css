@@ -1,6 +1,7 @@
 .aboutme {
   /* background-color: aqua; */
   margin: 3rem 0;
+  overflow: hidden;
 }
 
 .img {

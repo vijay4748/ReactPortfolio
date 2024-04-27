@@ -3,6 +3,7 @@
   /* height: 200vh; */
   margin: 5rem 20px;
   /* margin-bottom: 50px; */
+  overflow: hidden;
 }
 .project-skillMyStory {
   color: white;
